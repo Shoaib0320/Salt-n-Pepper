@@ -146,9 +146,21 @@
         padding: 80px 20px;
     }
 }
+/* 
+@media (max-width: 1024px) {
+    .cardDiv {
+        padding: 20px 80px;
+        gap: 20px;
+
+    }
+
+    .cardMainDiv {
+        padding: 40px 20px;
+    }
+} */
 
 @media (max-width: 576px) {
-    carousel-item img {
+    .carousel-item img {
         height: 400px;
     }
 
@@ -162,5 +174,122 @@
     .navbar {
         padding: 10px 10px;
 
+    }
+}
+@media (max-width: 320px) {
+    .city img {
+        width: 310px;
+        margin: 8px;
+        margin-left:5px;
+    }    
+}
+@media (max-width: 320px) {
+    .city-1 img {
+        width: 310px;
+        margin: 5px;
+        /* margin-left: 20px; */
+    }    
+}
+@media (max-width: 320px) {
+    .city-2 img {
+        width: 310px;
+        margin: 5px;
+
+    }    
+}
+
+@media (min-width: 320px) {
+    .city img {
+        width: 310px;
+        margin: 8px;
+        margin-left:5px;
+    }    
+}
+@media (min-width: 320px) {
+    .city-1 img {
+        width: 310px;
+        margin: 5px;
+        /* margin-left: 20px; */
+    }    
+}
+@media (min-width: 320px) {
+    .city-2 img {
+        width: 310px;
+        margin: 5px;
+
+    }    
+}
+@media (max-width: 1024px) {
+
+    .city img {
+        width: 100%;
+        margin: 8px;
+        margin-left:5px;
+    } 
+    .city-1 img {
+        width: 100%;
+        margin: 5px;
+        /* margin-left: 20px; */
+    }    
+
+    .city-2 img {
+        width: 100%;
+        margin: 5px;
+
+    }    
+}
+
+@media (min-width: 1024px) {
+
+    .city img {
+        width: 100%;
+        margin: 8px;
+        margin-left:5px;
+    } 
+    .city-1 img {
+        width: 100%;
+        margin: 5px;
+        /* margin-left: 20px; */
+    }    
+
+    .city-2 img {
+        width: 100%;
+        margin: 5px;
+
+    }    
+}
+
+@media (max-width: 320px) {
+    .text {
+        justify-content: center;
+        width: 310px;
+        padding: 15px;
+    }    
+}
+
+@media (max-width: 1024px) {
+    .text {
+   margin: 100px;
+    }    
+}
+
+
+@media (max-width: 320px) {
+
+ .village{
+    width: 300px;
+ }
+}
+@media (min-width: 320px) {
+
+    .village{
+       width: 300px;
+    }
+   }
+
+@media (min-width: 1024px) {
+
+    .village{
+        width:100%;
     }
 }
