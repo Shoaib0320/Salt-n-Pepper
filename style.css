@@ -14,6 +14,9 @@
 
 .navbar {
     padding: 10px 180px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
 .collapse {
@@ -87,9 +90,8 @@
 }
 
 .imgDiv {
-    padding: 10px 15px;
+    padding: 10px 29px;
     background-color: white;
-    /* background-size: 250px; */
     border-radius: 10px;
 }
 
@@ -128,6 +130,62 @@
 @media (min-width: 400px) {
     .navbar {
         padding: 10px 10px;
+    }
+}
+@media (min-width: 1024px) {
+    .collapse {
+       gap: 0px;
+       margin-left: 0px;
+    }
+    .navbar-brand{
+        margin: 0px;
+    }
+    .nav-item button{
+        width: 135px;
+       padding: 10px 8px;
+       margin: 5px;
+    }
+    .navbar-nav {
+        gap: 0px;
+    }
+    .nav-item {
+        color: white;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    .navbar-brand{
+        margin-right: 105px;
+    }
+}
+
+@media (min-width: 1274px) {
+    .collapse {
+       gap: 0px;
+       margin-left: 0px;
+    }
+    .navbar-brand{
+        margin: 0px;
+    }
+    .nav-item button{
+        width: 135px;
+       padding: 10px 8px;
+       margin: 5px;
+    }
+    .navbar-nav {
+        gap: 0px;
+    }
+    .nav-item {
+        color: white;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    .navbar-brand{
+        margin-right: 245px;
+    }
+}
+@media (max-width: 1024px) {
+    .collapse {
+       gap: 0px;
     }
 }
 @media (min-width: 321px) {
@@ -176,9 +234,9 @@
 } */
 
 @media (max-width: 576px) {
-    .carousel-item img {
+    /* .carousel-item img {
         height: 400px;
-    }
+    } */
 
     .cardDiv {
         padding: 20px 20px;
