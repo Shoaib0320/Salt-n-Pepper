@@ -14,15 +14,14 @@
 
 .navbar {
     padding: 10px 180px;
-    position: sticky;
+    position:sticky;
     top: 0px;
     z-index: 1;
 }
 
 .collapse {
-    margin-left: 40px;
+    margin-left: 20px;
 }
-
 .nav-item {
     color: white;
     padding-left: 20px;
@@ -33,11 +32,23 @@
     display: flex;
     align-items: center;
 }
-
 .nav-item:hover {
     border-color: grey;
 }
-
+.nav-item-last {
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-right: 70px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition: all .5s;
+    display: flex;
+    align-items: center;
+}
+.nav-item-last:hover {
+    border-color: grey;
+}
 .navbar-nav {
     gap: 10px;
 }
@@ -59,12 +70,12 @@
 }
 
 #orderBtn {
-    border-color: rgba(255, 0, 0, 0.7);
-    background-color: rgba(255, 0, 0, 0.5);
+    border-color: rgba(255, 8, 0, 0.7);
+    background-color: red;;
 }
 
 #orderBtn:hover {
-    background-color: red;
+    background-color: rgba(255, 8, 6, 0.5);
 }
 
 .carousel-indicators button {
@@ -74,7 +85,7 @@
 
 .cardMainDiv {
     background-color: black !important;
-    padding: 80px 120px;
+    padding: 80px 150px;
 }
 
 .cardHeadingDiv h2 span {
@@ -154,7 +165,26 @@
         padding-right: 0px;
     }
     .navbar-brand{
-        margin-right: 105px;
+        margin-right: 70px;
+    }
+    .nav-item-last {
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 0px;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        transition: all .5s;
+        display: flex;
+        align-items: center;
+    }
+}
+@media (max-width: 280px){
+    .navbar-brand{
+        margin-right: 0px;
+    }
+    .navbar-brand img{
+        width: 125px;
     }
 }
 
@@ -349,9 +379,9 @@
 
 @media (max-width: 320px) {
 
- .village{
-    width: 300px;
- }
+    .village{
+        width: 300px;
+    }
 }
 @media (min-width: 320px) {
 
